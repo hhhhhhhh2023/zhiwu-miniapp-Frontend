@@ -1,17 +1,48 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "cmponents/ui/button",
-    "pages/login/login"
+    "pages/diary/index",
+    "pages/plant/index",
+    "pages/profile/index"
   ],
   "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0f7e6",
+    "navigationBarTitleText": "植物日记",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarBackgroundColor": "#ffffff"
+    "backgroundColor": "#f0f7e6"
   },
-  "style": "v2",
-  "componentFramework": "glass-easel",
+  "_tabBar": {  
+    "color": "#999999",
+    "selectedColor": "#5a8f3e",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "images/tab-home.png",
+        "selectedIconPath": "images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/diary/index",
+        "text": "日记",
+        "iconPath": "images/tab-plant.png",
+        "selectedIconPath": "images/tab-plant-active.png"
+      },
+      {
+        "pagePath": "pages/plant/index",
+        "text": "植物",
+        "iconPath": "images/tab-message.png",
+        "selectedIconPath": "images/tab-message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "images/tab-profile.png",
+        "selectedIconPath": "images/tab-profile-active.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "style": "v2"
 }
