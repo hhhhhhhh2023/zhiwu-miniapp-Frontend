@@ -124,7 +124,30 @@
     <text class="fab-icon">+</text>
   </view>
 
-  
+  <!-- 底部导航栏 -->
+  <view class="tab-bar">
+    <view class="tab-item" bindtap="switchTab" data-tab="home">
+      <view class="tab-icon">
+        <view class="icon-home {{activeTab === 'home' ? 'active' : ''}}"></view>
+      </view>
+    </view>
+    <view class="tab-item" bindtap="switchTab" data-tab="message">
+      <view class="tab-icon">
+        <view class="icon-message {{activeTab === 'message' ? 'active' : ''}}"></view>
+      </view>
+    </view>
+    <view class="tab-item" bindtap="switchTab" data-tab="plant">
+      <view class="tab-icon">
+        <view class="icon-plant {{activeTab === 'plant' ? 'active' : ''}}"></view>
+      </view>
+    </view>
+    <view class="tab-item" bindtap="switchTab" data-tab="profile">
+      <view class="tab-icon">
+        <view class="icon-profile {{activeTab === 'profile' ? 'active' : ''}}"></view>
+      </view>
+    </view>
+  </view>
+</view>
 
 <!-- 添加日记弹窗 (全屏) -->
 <view class="add-modal {{showAddModal ? 'show' : ''}}">
