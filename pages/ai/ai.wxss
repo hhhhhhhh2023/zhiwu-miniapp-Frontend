@@ -1,0 +1,119 @@
+/* pages/ai/ai.wxss */
+page {
+  background: linear-gradient(#A1C9A1, #D1E7D1);
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 顶部绿色标题栏 */
+.header {
+  background-color: #386230;
+  border-radius: 30rpx 30rpx 0 0;
+  padding: 40rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left .title {
+  font-size: 60rpx;
+  color: #fff;
+}
+
+.yellow-line {
+  width: 90rpx;
+  height: 8rpx;
+  background: #F8D785;
+  margin-top: 10rpx;
+  border-radius: 4rpx;
+}
+
+.plant-img {
+  width: 160rpx;
+  height: 120rpx;
+}
+
+/* 聊天区域 */
+.chat-box {
+  flex: 1;
+  padding: 30rpx;
+}
+
+.msg-item {
+  margin-bottom: 30rpx;
+  display: flex;
+}
+
+.ai {
+  justify-content: flex-start;
+}
+
+.user {
+  justify-content: flex-end;
+}
+
+.text-box {
+  max-width: 70%;
+  padding: 25rpx;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+.ai-text {
+  background: #ffffff;
+  color: #333;
+}
+
+.user-text {
+  background: #8CB01E;
+  color: #fff;
+  margin-right: 20rpx;
+}
+
+.avatar {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  background: #ED976B;
+}
+
+/* 底部输入框 */
+.input-bar {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  border-radius: 40rpx 40rpx 0 0;
+}
+
+.input {
+  flex: 1;
+  height: 80rpx;
+  background: #F0F5F0;
+  border-radius: 40rpx;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+}
+
+.send-btn {
+  width: 80rpx;
+  height: 80rpx;
+  background: #8CB01E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20rpx;
+}
+
+.send-btn image {
+  width: 40rpx;
+  height: 40rpx;
+}

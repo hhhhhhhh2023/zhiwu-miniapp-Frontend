@@ -1,0 +1,39 @@
+<!-- pages/ai/ai.wxml -->
+<view class="container">
+  <!-- 顶部标题栏 -->
+  <view class="header">
+    <view class="header-left">
+      <text class="title">AI问答助手</text>
+      <view class="yellow-line"></view>
+    </view>
+    <view class="header-right">
+      <image src="/images/ai_top_icon.png" class="plant-img"></image>
+    </view>
+  </view>
+
+  <!-- 聊天记录 -->
+  <scroll-view scroll-y class="chat-box" scroll-top="{{scrollTop}}">
+    <view class="msg-item ai">
+      <view class="text-box">
+        您好～我是您的植物智能养护助手小植，您在养护植物的过程中遇到了什么问题呢？
+      </view>
+    </view>
+
+    <view class="msg-item user" wx:for="{{messages}}" wx:key="index">
+      <view class="text-box user-text">{{item.userMsg}}</view>
+      <image src="/images/ai_avatar.png" class="avatar"></image>
+    </view>
+
+    <view class="msg-item ai" wx:for="{{aiReplies}}" wx:key="index">
+      <view class="text-box ai-text">{{item.aiMsg}}</view>
+    </view>
+  </scroll-view>
+
+  <!-- 底部输入框 -->
+  <view class="input-bar">
+    <input class="input" placeholder="请输入你的问题..." value="{{inputText}}" bindinput="onInput" bindconfirm="sendMsg"/>
+    <view class="send-btn" bindtap="sendMsg">
+      <image src="/images/ai_send.png"></image>
+    </view>
+  </view>
+</view>

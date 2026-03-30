@@ -14,7 +14,7 @@ App({
       }
     })
   },
-  
+
   globalData: {
     userInfo: null,
     // API 基础路径，后期接入后端时修改

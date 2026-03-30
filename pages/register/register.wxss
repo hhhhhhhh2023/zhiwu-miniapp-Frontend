@@ -1,10 +1,10 @@
-/* pages/login/login.wxss */
+/* pages/register/register.wxss */
 page {
   background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.login-container {
+.register-container {
   padding: 120rpx 60rpx 0;
   min-height: 100vh;
   position: relative;
@@ -12,7 +12,7 @@ page {
 }
 
 /* 背景渐变装饰 */
-.login-container::before {
+.register-container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -24,7 +24,7 @@ page {
   z-index: -1;
 }
 
-.login-container::after {
+.register-container::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -52,7 +52,7 @@ page {
 }
 
 /* 标题样式 */
-.login-title {
+.register-title {
   margin-bottom: 120rpx;
   display: flex;
   align-items: flex-end;
@@ -83,7 +83,7 @@ page {
 }
 
 /* 表单样式 */
-.login-form {
+.register-form {
   margin-bottom: 120rpx;
 }
 
@@ -100,21 +100,15 @@ page {
   padding: 0;
 }
 
-.forget-pwd {
-  text-align: right;
-  font-size: 32rpx;
-  color: #85b872;
-}
-
 /* 按钮样式 */
-.login-buttons {
+.register-buttons {
   display: flex;
   flex-direction: column;
   gap: 30rpx;
-  margin-bottom: 120rpx;
+  margin-bottom: 40rpx;
 }
 
-.btn-login {
+.btn-register {
   height: 100rpx;
   line-height: 100rpx;
   border-radius: 50rpx;
@@ -124,7 +118,7 @@ page {
   border: none;
 }
 
-.btn-register {
+.btn-login {
   height: 100rpx;
   line-height: 100rpx;
   border-radius: 50rpx;
@@ -134,8 +128,16 @@ page {
   border: 2rpx solid #85b872;
 }
 
+/* 验证码注册入口 */
+.sms-register {
+  text-align: center;
+  font-size: 32rpx;
+  color: #85b872;
+  margin-bottom: 120rpx;
+}
+
 /* 底部Logo（纯CSS实现花盆+叶子） */
-.login-footer {
+.register-footer {
   text-align: center;
 }
 

@@ -1,7 +1,11 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/dashboard/dashboard",
+    "pages/register/register",
     "pages/diary/index",
     "pages/plant/index",
+    "pages/ai/ai",
     "pages/profile/index"
   ],
   "window": {
