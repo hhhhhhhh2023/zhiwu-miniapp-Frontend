@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "AI问答",
-  "backgroundColor": "#A1C9A1",
-  "backgroundTextStyle": "light"
+  "navigationBarTitleText": "植悟",
+  "navigationBarBackgroundColor": "#f5f0e8",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#f5f0e8",
+  "usingComponents": {}
 }
