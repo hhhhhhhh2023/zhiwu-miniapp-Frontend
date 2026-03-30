@@ -6,7 +6,7 @@
     "pages/diary/index",
     "pages/plant/index",
     "pages/ai/ai",
-    "pages/profile/index"
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -40,7 +40,7 @@
         "selectedIconPath": "images/tab-message-active.png"
       },
       {
-        "pagePath": "pages/profile/index",
+        "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "images/tab-profile.png",
         "selectedIconPath": "images/tab-profile-active.png"
