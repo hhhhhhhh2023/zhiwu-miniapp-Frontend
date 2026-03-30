@@ -395,56 +395,7 @@ page {
   line-height: 1;
 }
 
-/* 底部导航栏 */
-.tab-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 120rpx;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-bottom: env(safe-area-inset-bottom);
-  box-shadow: 0 -4rpx 16rpx rgba(0, 0, 0, 0.05);
-  z-index: 99;
-}
 
-.tab-item {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.tab-icon {
-  width: 56rpx;
-  height: 56rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-home,
-.icon-message,
-.icon-plant,
-.icon-profile {
-  width: 48rpx;
-  height: 48rpx;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.5;
-}
-
-.icon-home.active,
-.icon-message.active,
-.icon-plant.active,
-.icon-profile.active {
-  opacity: 1;
-}
 
 /* 使用 CSS 绘制简单图标 */
 .icon-home {
@@ -756,4 +707,11 @@ page {
 
 .submit-btn::after {
   border: none;
+}
+/* 覆盖全局 .container 对日记页的影响 */
+.container {
+  display: block !important;           /* 取消 flex 布局 */
+  padding-top: 0 !important;           /* 取消全局的顶部内边距 */
+  align-items: normal !important;      /* 重置对齐 */
+  justify-content: normal !important;  /* 重置对齐 */
 }
