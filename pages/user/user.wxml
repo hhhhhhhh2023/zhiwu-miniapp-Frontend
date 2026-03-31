@@ -106,27 +106,4 @@
     </view>
   </view>
 
-  <!-- 底部TabBar -->
-  <view class="tab-bar">
-    <view class="tab-item" bindtap="switchTab" data-path="/pages/index/index">
-      <view class="tab-icon-wrapper">
-        <text class="tab-icon-text">H</text>
-      </view>
-    </view>
-    <view class="tab-item" bindtap="switchTab" data-path="/pages/community/community">
-      <view class="tab-icon-wrapper">
-        <text class="tab-icon-text">C</text>
-      </view>
-    </view>
-    <view class="tab-item" bindtap="switchTab" data-path="/pages/care/care">
-      <view class="tab-icon-wrapper">
-        <text class="tab-icon-text">P</text>
-      </view>
-    </view>
-    <view class="tab-item active">
-      <view class="tab-icon-active">
-        <text class="tab-icon-text-active">U</text>
-      </view>
-    </view>
-  </view>
 </view>

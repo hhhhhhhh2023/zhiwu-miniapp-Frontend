@@ -1,0 +1,104 @@
+page {
+  background: #f7f6f2;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 22rpx;
+  box-sizing: border-box;
+  padding-bottom: 130rpx;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back,
+.done {
+  font-size: 44rpx;
+  color: #6f9446;
+}
+
+.title {
+  font-size: 68rpx;
+  color: #1d1d1d;
+}
+
+.label-row {
+  margin-top: 26rpx;
+  display: flex;
+  align-items: baseline;
+  gap: 10rpx;
+}
+
+.label-cn {
+  font-size: 54rpx;
+  color: #1f1f1f;
+}
+
+.label-en {
+  font-size: 52rpx;
+  color: #7aa13e;
+  font-style: italic;
+}
+
+.photo-wrap {
+  margin-top: 16rpx;
+  display: flex;
+  align-items: center;
+  gap: 26rpx;
+}
+
+.photo-box {
+  width: 360rpx;
+  height: 300rpx;
+  border-radius: 24rpx;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
+
+.photo-empty {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+}
+
+.plus {
+  font-size: 86rpx;
+}
+
+.photo-tip {
+  margin-top: 12rpx;
+  font-size: 30rpx;
+}
+
+.emoji {
+  font-size: 100rpx;
+}
+
+.form {
+  margin-top: 22rpx;
+}
+
+.field {
+  height: 110rpx;
+  border-bottom: 1rpx solid #b8b8b8;
+  display: flex;
+  align-items: center;
+}
+
+.field input {
+  width: 100%;
+  font-size: 42rpx;
+  color: #1f1f1f;
+}

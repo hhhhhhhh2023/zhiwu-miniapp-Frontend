@@ -1,6 +1,6 @@
-<!--logs.wxml-->
-<scroll-view class="scrollarea" scroll-y type="list">
-  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
-    <view class="log-item">{{index + 1}}. {{log.date}}</view>
-  </block>
-</scroll-view>
+<view class="page">
+  <!-- 背景图 -->
+  <image class="bg-image" src="/images/add-detail-bg.png" mode="aspectFill"></image>
+  <!-- 按钮图 -->
+  <image class="start-btn" src="/images/start-btn.png" mode="aspectFit" bindtap="onStart"></image>
+</view>

@@ -1,49 +1,52 @@
 {
   "pages": [
+    "pages/logs/logs",
     "pages/login/login",
-    "pages/dashboard/dashboard",
     "pages/register/register",
-    "pages/diary/index",
+    "pages/dashboard/dashboard",
     "pages/plant/index",
+    "pages/plants/index",
     "pages/ai/ai",
-    "pages/user/user"
+    "pages/diary/index",
+    "pages/user/user",
+    "pages/profile/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f0f7e6",
-    "navigationBarTitleText": "植物日记",
+    "navigationBarTitleText": "植悟",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#f0f7e6"
   },
-  "_tabBar": {  
+  "tabBar": {
     "color": "#999999",
     "selectedColor": "#5a8f3e",
     "backgroundColor": "#ffffff",
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/home/index",
-        "text": "首页",
+        "pagePath": "pages/dashboard/dashboard",
+        "text": "",
         "iconPath": "images/tab-home.png",
         "selectedIconPath": "images/tab-home-active.png"
       },
       {
-        "pagePath": "pages/diary/index",
-        "text": "日记",
-        "iconPath": "images/tab-plant.png",
-        "selectedIconPath": "images/tab-plant-active.png"
+        "pagePath": "pages/ai/ai",
+        "text": "",
+        "iconPath": "images/tab-ai.png",
+        "selectedIconPath": "images/tab-ai-active.png"
       },
       {
-        "pagePath": "pages/plant/index",
-        "text": "植物",
-        "iconPath": "images/tab-message.png",
-        "selectedIconPath": "images/tab-message-active.png"
+        "pagePath": "pages/diary/index",
+        "text": "",
+        "iconPath": "images/tab-diary.png",
+        "selectedIconPath": "images/tab-diary-active.png"
       },
       {
         "pagePath": "pages/user/user",
-        "text": "我的",
-        "iconPath": "images/tab-profile.png",
-        "selectedIconPath": "images/tab-profile-active.png"
+        "text": "",
+        "iconPath": "images/tab-user.png",
+        "selectedIconPath": "images/tab-user-active.png"
       }
     ]
   },
