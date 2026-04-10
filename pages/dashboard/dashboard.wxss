@@ -9,7 +9,7 @@ page {
   padding-top: calc(env(safe-area-inset-top) + 100rpx);
   box-sizing: border-box;
   padding-bottom: 140rpx;
-  background: #f6f5f1 url("/images/home-bg.png") center/cover no-repeat;
+  background: #f6f5f1 ;
 }
 
 .title-wrap {
@@ -32,9 +32,9 @@ page {
 
 .remind-card {
   position: relative;
-  background: #c6d8ae url("/images/garden-remind-bg.png") center/cover no-repeat;
+  background: #c6d8ae ;
   border-radius: 26rpx;
-  padding: 0 20rpx 20rpx;
+  padding-bottom: 20rpx; 
   box-shadow: 0 8rpx 20rpx rgba(0, 0, 0, 0.08);
   overflow: hidden;
 }
@@ -78,6 +78,7 @@ page {
   gap: 16rpx;
   position: relative;
   z-index: 1;
+  padding: 0 20rpx; 
 }
 
 .check-btn {

@@ -34,10 +34,10 @@ Page({
     setTimeout(() => {
       wx.hideLoading();
       wx.showToast({ title: '登录成功', icon: 'success' });
-      wx.switchTab({ url: '/pages/index/index' });
+      wx.switchTab({ url: '/pages/dashboard/dashboard' });
     }, 1500);
   },
-
+ 
   // 注册按钮点击
   handleRegister() {
     wx.navigateTo({ url: '/pages/register/register' });

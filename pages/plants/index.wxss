@@ -8,7 +8,7 @@ page {
   padding: 22rpx;
   padding-top: calc(env(safe-area-inset-top) + 40rpx);
   box-sizing: border-box;
-  background: #f7f6f2 url("/images/add-plant-bg.png") center/cover no-repeat;
+  background: #f7f6f2 ;
 }
 
 .header {

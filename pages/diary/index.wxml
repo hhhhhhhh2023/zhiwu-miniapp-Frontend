@@ -1,10 +1,6 @@
 <!-- pages/diary/index.wxml -->
 <view class="container">
-  <!-- 顶部标题 -->
-  <view class="header">
-    <text class="title">植物日记</text>
-    <text class="title-en">Diary</text>
-  </view>
+  
 
   <!-- 天气组件 -->
   <view class="weather-card">

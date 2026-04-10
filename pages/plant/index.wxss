@@ -9,7 +9,7 @@ page {
   padding-top: calc(env(safe-area-inset-top) + 100rpx);
   box-sizing: border-box;
   padding-bottom: 40rpx;
-  background: #f7f6f2 url("/images/plant-search-bg.png") center/cover no-repeat;
+  background: #f7f6f2 ;
 }
 
 .top {
